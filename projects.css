@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project {
+    margin: 10px;
+    max-width: 300px;
+  }
+
+  .project img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .project-description {
+    font-size: 14px;
+  }
+  .back-button {
+    display: block;
+    text-align: center;
+    background-color: orangered;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 200px;
+    width: 20%;
+    margin-left: 120px;
+}
+
+.back-button:hover {
+    background-color: #ccc;
+}
